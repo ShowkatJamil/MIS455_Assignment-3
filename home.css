@@ -1,0 +1,98 @@
+body{
+    background-color: rgb(168, 186, 180);
+    background-image: url(map-world-10624724.jpg);
+}
+.container{
+    padding: 1cm;
+    background-color: whitesmoke;
+    position: absolute;
+    transform: translate(-30%, -40%);
+    top: 40%;
+    left: 33%;
+    border-radius: 3%;
+    
+}
+.search-wrapper{
+    display: grid;
+    grid-template-columns: 9fr 2fr;
+    gap: 0.5cm;
+}
+.search-wrapper input{
+    border-top: 5cm;
+}
+.search-wrapper button{
+    border-radius: 10px;
+    max-height: 100px;
+    min-width: none;
+    overflow: hidden;
+    background-color: rgb(154, 154, 223);
+}
+.container .flag-img{
+display: block;
+width: 2cm;
+min-width: 10cm;
+margin: 1.4cm auto 1.5cm;
+}
+.container h2{
+    text-align: center;
+}
+.container h4{
+    display: inline;
+}
+/* Nav_bar */
+.navbar-nav .nav-link {
+    color: #710f0f;
+  }
+/* Responsive code */
+
+   /* Media query for screens smaller than 768px (mobile devices) */
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+    header {
+      height: 50px;
+      padding: 10px;
+    }
+    main {
+      padding: 10px;
+    }
+    footer {
+      padding: 10px;
+    }
+  }
+  
+  /* Media query for screens between 768px and 1024px (tablets) */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+      font-size: 16px;
+    }
+    header {
+      height: 80px;
+      padding: 20px;
+    }
+    main {
+      padding: 20px;
+    }
+    footer {
+      padding: 20px;
+    }
+  }
+  
+  /* Media query for screens larger than 1024px (laptops and desktops) */
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+    header {
+      height: 100px;
+      padding: 30px;
+    }
+    main {
+      padding: 30px;
+    }
+    footer {
+      padding: 30px;
+    }
+  }
+  
